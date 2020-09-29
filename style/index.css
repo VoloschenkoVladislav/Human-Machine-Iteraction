@@ -1,5 +1,6 @@
 :root {
     box-sizing: border-box;
+    font-size: 1.2rem;
 }
 
 body {
@@ -18,12 +19,27 @@ header .administrator-privilegies {
     margin: 0.4em 2em;
 }
 
-.about-us {
+#auth {
+    display: block;
+}
+
+.main-info {
     background-image: url(../img/background.jpg);
     margin: 0px;
     overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.about-us,.try-to-become-administrator {
+    margin: 2rem 3rem;
+}
+
+.about-us {
+
 }
 
 .try-to-become-administrator {
-    
+
 }
